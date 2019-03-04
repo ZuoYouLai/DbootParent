@@ -18,8 +18,8 @@
       <module name="customer" target="1.8" />
       <module name="DbootParent" target="1.5" />
       <module name="provider" target="1.8" />
-      <module name="zkcustomer" target="1.5" />
-      <module name="zkprovider" target="1.5" />
+      <module name="zkcustomer" target="1.8" />
+      <module name="zkprovider" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
