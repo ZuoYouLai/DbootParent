@@ -14,9 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class TestController {
 
-    @Reference(version = "${demo.service.version}",
-               application = "${dubbo.application.id}",
-               registry = "${dubbo.registry.id}")
+    @Reference
     private DemoService demoService;
 
 
